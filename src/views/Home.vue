@@ -15,9 +15,9 @@
 </template>
 
 <script>
-import CkInput from '@/components/CkInput'
-import CkFormItem from '@/components/CkFormItem'
-import CkForm from '@/components/CkForm'
+import CkInput from '@/components/Form/CkInput'
+import CkFormItem from '@/components/Form/CkFormItem'
+import CkForm from '@/components/Form/CkForm'
 
 export default {
   name: 'Home',
