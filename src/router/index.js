@@ -22,6 +22,11 @@ Vue.use(VueRouter)
     path: '/recursive',
     name: 'Recursive',
     component: () => import(/* webpackChunkName: "about" */ '../components/Recursive')
+  },
+  {
+    path: '/tree',
+    name: 'Tree',
+    component: () => import(/* webpackChunkName: "about" */ '../components/Tree')
   }
 ]
 
