@@ -8,7 +8,7 @@
     export default {
         name: "CKForm",
         provide(){
-            return { form : this}
+            return { form : this }
         },
         props: {
             model: {
